@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook.svg?branch=master)](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook)
+
 # CloudFlare hook for `dehydrated`
 
 This is a hook for the [Let's Encrypt](https://letsencrypt.org/) ACME client [dehydrated](https://github.com/lukas2511/dehydrated) (previously known as `letsencrypt.sh`) that allows you to use [CloudFlare](https://www.cloudflare.com/) DNS records to respond to `dns-01` challenges. Requires Python and your CloudFlare account e-mail and API key being in the environment.
