@@ -11,7 +11,7 @@ $ cd ~
 $ git clone https://github.com/lukas2511/dehydrated
 $ cd dehydrated
 $ mkdir hooks
-$ git clone https://github.com/kappataumu/letsencrypt-cloudflare-hook hooks/cloudflare
+$ git clone https://github.com/walcony/letsencrypt-cloudflare-hook hooks/cloudflare
 ```
 
 If you are using Python 3:
