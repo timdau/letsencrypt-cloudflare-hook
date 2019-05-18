@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook.svg?branch=master)](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook)
+[![Build Status](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook.svg?branch=master)](https://travis-ci.org/walcony/letsencrypt-cloudflare-hook) [![Requirements Status](https://requires.io/github/walcony/letsencrypt-cloudflare-hook/requirements.svg?branch=master)](https://requires.io/github/walcony/letsencrypt-cloudflare-hook/requirements/?branch=master)
 
 # CloudFlare hook for `dehydrated`
 
