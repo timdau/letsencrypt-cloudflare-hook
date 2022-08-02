@@ -39,7 +39,7 @@ else:
     logger.setLevel(logging.INFO)
 
 try:
-CF_HEADERS = [{
+    CF_HEADERS = [{
         'Authorization': 'Bearer ' + k,
         #'X-Auth-Email': e,
         #'X-Auth-Key'  : k,
