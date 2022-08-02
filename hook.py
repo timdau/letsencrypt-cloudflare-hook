@@ -39,9 +39,10 @@ else:
     logger.setLevel(logging.INFO)
 
 try:
-    CF_HEADERS = [{
-        'X-Auth-Email': e,
-        'X-Auth-Key'  : k,
+CF_HEADERS = [{
+        'Authorization': 'Bearer ' + k,
+        #'X-Auth-Email': e,
+        #'X-Auth-Key'  : k,
         'Content-Type': 'application/json',
     } for e,k in zip(os.environ['CF_EMAIL'].split(), os.environ['CF_KEY'].split()) ]
 except KeyError:
